@@ -1,0 +1,63 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <style>
+        div.static-me{
+            display:block;
+            position:static;
+        }
+        div.relative-me{
+            display:inline-block;
+            height:20px;
+            width:50%;
+            position:relative;
+            top:250px;
+        }
+        div.fixed-me{
+            display:inline-block;
+            height:20px;
+            width:50%;
+            position:fixed;
+            top:500px;
+            left:50px;
+        }
+        div.absolute-me{
+            display:none;
+            position:absolute;
+            top:50px;
+            left:50px;
+        }
+        div.trimmed{
+            height:20px;
+            width:400px;
+            overflow:hidden;
+        }
+        div.scroll{
+            height:50px;
+            width:200px;
+            overflow:scroll;
+        }
+        div.auto-me{
+            height:40px;
+            width:200px;
+            overflow:auto;
+        }
+        div.visible-me{
+            height:40px;
+            width:200px;
+            overflow:visible;
+            border:1px solid #000;
+        }
+    </style>
+</head>
+<body>
+    <div class="static-me">I am not special</div>
+    <div class="relative-me">What dooes  this even mean? Look up.</div>
+    <div class="fixed-me">I get attached soon</div>
+    <div class="absolute-me">I am the best thing you have in sttore</div>
+    <div class="trimmed">I know I am going to get slashed from bottom but it's fine.. Someone will save me. Hopes intact"</div>
+    <div class="scroll">I knew you would save me. Let’s show the world what we are made of.</div>
+    <div class="auto-me">I knew you would save me. Let’s show the world what we are made of.</div>
+    <div class="visible-me">I knew you would save me. Let’s show the world what we are made of.</div>
+</body>
+</html>

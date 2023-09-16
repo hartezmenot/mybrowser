@@ -18,16 +18,51 @@
     margin: 1px;
 }
 
-div.a {
+div.a{
     text-align: right;
     color: #4cff00
 }
-
+.a:active{
+    color:red;
+}
 body {
     background: url("https://w0.peakpx.com/wallpaper/142/843/HD-wallpaper-megumin-street-anime.jpg");
     background-size: cover;
 }
-
-nav {
-    color: #4cff00;
+.overlay {
+    position: absolute;
+    bottom: 0;
+    left:0;
+    right:20%;
+    background-color: #008CBA;
+    overflow: hidden;
+    width:0%;
+    height: 100%;
+    transition: .5s ease;
+}
+.container:hover .overlay{
+    width:15%;
+}
+#nav {
+    width:95px;
+    height:95px;
+}
+.text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    white-space: nowrap;
+}
+#object1{
+    width:00px;
+    height:0px;
+    object-position:0px 0px;
+}
+nav{
+    font-size:45px;
 }
